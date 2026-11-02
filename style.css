@@ -358,3 +358,15 @@ nav .right span{
     /*contact section*/
   
 }
+
+/* Project media */
+.projects-section .projects .project img.project-image {
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 8px auto;
+}
